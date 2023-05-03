@@ -1,7 +1,7 @@
 # VISproPT
 VISproPT is the innovative instrument created at ENEA-Casaccia (Italy) for measuring the 3D shape of parabolic-trough (PT) panels for CSP solar collectors.
 
-This C++ software covers all the steps of the 3D shape measurement of parabolic-trough reflective panels acchomplished with the VISproPT instrument:
+This C++ software covers all the steps of the 3D shape measurement of parabolic-trough reflective panels accomplished with the VISproPT instrument:
     1) Camera-lens calibration, for image undistortion
     2) Instrument calibration
     3) Image-processing for evaluating: i) 3D shape (slopes dz/dx, dz/dy and height z), ii) deviations from the ideal shape and, last but not least, iii) evaluation of the intercept factor at a given longitudinal angle.
@@ -18,5 +18,6 @@ Process the exemplary images:
   - launch the software by a terminal window
   - load the configuration file
   - surf to the "Analysis" tab
-  - push the button "Process!" and observe the progress in the terminal
-  - at the process completion several countormaps will be drawn 
+  - push the button "Process!" and select the folder containig the RGinterior#58 data
+  - follow the data-process progress by the messages printed in the terminal
+  - at the process completion several contour-maps will be drawn 
